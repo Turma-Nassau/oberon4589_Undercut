@@ -19,7 +19,7 @@ Projeto criado para a matéria de Códigos de Alta Performance Web. Site de not�
 ### Estrutura de Dados
  
  * Fazer login e criar um novo usuário 
- ~~MySql
+ ~~~ MySql
      const Usuario = bd.sequelize.define('usuarios', {
 
     nome: {
