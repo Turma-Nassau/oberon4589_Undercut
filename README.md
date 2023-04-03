@@ -15,3 +15,58 @@ Projeto criado para a matéria de Códigos de Alta Performance Web. Site de not�
 - Oberon Inácio Silva
 ## ⏳Status
 - Work in progress
+
+### Estrutura de Dados
+ 
+ * Fazer login e criar um novo usuário 
+ ~~MySql
+     const Usuario = bd.sequelize.define('usuarios', {
+
+    nome: {
+        type: bd.Sequelize.STRING(30)
+    },
+
+    sobrenome: {
+        type: bd.Sequelize.STRING(30)
+    },
+
+    email: {
+        type: bd.Sequelize.STRING(50)
+    },
+
+    senha: {
+        type: bd.Sequelize.STRING(30)
+    },
+
+    usuarios: {
+        type: bd.Sequelize.NUMERIC(2)
+    }
+
+}); 
+
+~~
+
+### Postagem
+
+  * Postagens das noticias do site
+  ~~MySql
+  const bd = require('./database')
+
+
+const Postagem = bd.sequelize.define('postagens' , {
+
+    titulo: {
+        type: bd.Sequelize.STRING
+    },
+
+    conteudo: {
+        type: bd.Sequelize.STRING
+    },
+    
+    categoria: {
+        type: bd.Sequelize.STRING
+    }
+})
+
+module.exports = Postagem;
+   ~~
