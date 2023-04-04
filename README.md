@@ -1,7 +1,7 @@
 ## 💬Descrição  
 Projeto criado para a matéria de Códigos de Alta Performance Web. Site de notícias da F1.
 ## :racing_car: Funcionalidades
-- O usuário poderá criar uma conta assim podendo receber email relacionados ao conteúdo do site, verá as noticias mais recentes do mundo da F1, tabela do campeonato de pilotos e cosntrutores assim como data e horário das próximas corridas.
+- O usuário poderá criar uma conta assim podendo receber email relacionados ao conteúdo do site, verá as noticias mais recentes do mundo da F1, tabela do campeonato de pilotos e construtores assim como data e horário das próximas corridas.
 ## 💻Finalidade
 - Ter um ambiente onde fãs do esporte possam ter de tudo em um único espaço, com o site limpo e sem muita complicação, abas faceis de navegar e bastante intuitivo.
 ## 🤖Tecnologias usadas
@@ -44,12 +44,12 @@ Projeto criado para a matéria de Códigos de Alta Performance Web. Site de not�
 
 }); 
 
-~~
+~~~~
 
 ### Postagem
 
   * Postagens das noticias do site
-  ~~MySql
+  ~~~~MySql
   const bd = require('./database')
 
 
@@ -69,4 +69,4 @@ const Postagem = bd.sequelize.define('postagens' , {
 })
 
 module.exports = Postagem;
-   ~~
+   ~~~~
